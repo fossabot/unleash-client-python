@@ -1,6 +1,7 @@
 # unleash-client-python
 
 [![CircleCI](https://circleci.com/gh/ivanklee86/unleash-client-python.svg?style=svg)](https://circleci.com/gh/ivanklee86/unleash-client-python) [![Coverage Status](https://coveralls.io/repos/github/ivanklee86/unleash-client-python/badge.svg?branch=il%2FI-8_releaseprep)](https://coveralls.io/github/ivanklee86/unleash-client-python?branch=il%2FI-8_releaseprep) [![Maintainability](https://api.codeclimate.com/v1/badges/68f61648a29051aa6c36/maintainability)](https://codeclimate.com/github/ivanklee86/unleash-client-python/maintainability) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PyPI version](https://badge.fury.io/py/UnleashClient.svg)](https://badge.fury.io/py/UnleashClient)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fivanklee86%2Funleash-client-python.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fivanklee86%2Funleash-client-python?ref=badge_shield)
 
 
 This is a Python client for Unleash.  It strives to [Client Specifications 1.0](https://github.com/Unleash/unleash/blob/master/docs/client-specification.md) (though as this project is still very much a work in progress!).
@@ -70,3 +71,7 @@ Supplying application context:
 app_context = {"userId": "test@email.com"}
 client.is_enabled("User ID Toggle", app_context)
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fivanklee86%2Funleash-client-python.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fivanklee86%2Funleash-client-python?ref=badge_large)
